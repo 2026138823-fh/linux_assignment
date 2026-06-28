@@ -1,0 +1,44 @@
+Welcome, Faiez!
+==========================================
+Current Date & Time: Fri Jun 26 17:56:40 +08 2026
+------------------------------------------
+
+[Disk Usage]
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.9G  954G   1% /
+
+[Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:           3.5Gi       473Mi       2.9Gi       3.6Mi       205Mi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[Top 5 Running Processes]
+    PID    PPID CMD                         %MEM %CPU
+  11494   11488 ps -eo pid,ppid,cmd,%mem,%c  0.1  200
+  11488   11486 bash system_info.sh          0.0 14.2
+  11489   11486 tee -a ../logs/system_log_2  0.0  4.7
+      1       0 /usr/lib/systemd/systemd --  0.3  0.1
+   8765       1 /usr/lib/systemd/systemd-ud  0.1  0.0
+==========================================
+Welcome, Faiez!
+==========================================
+Current Date & Time: Fri Jun 26 18:01:25 +08 2026
+------------------------------------------
+
+[Disk Usage]
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.9G  954G   1% /
+
+[Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:           3.5Gi       481Mi       2.9Gi       3.6Mi       206Mi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[Top 5 Running Processes]
+    PID    PPID CMD                         %MEM %CPU
+  11525   11519 ps -eo pid,ppid,cmd,%mem,%c  0.1  200
+  11519   11517 /bin/bash ./system_info.sh   0.0 14.2
+      1       0 /usr/lib/systemd/systemd --  0.3  0.1
+   8765       1 /usr/lib/systemd/systemd-ud  0.1  0.0
+    184       1 @dbus-daemon --system --add  0.1  0.0
+==========================================
